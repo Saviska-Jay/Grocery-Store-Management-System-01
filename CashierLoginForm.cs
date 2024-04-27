@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Grocery_Store_Management_System_01
 {
-    public partial class AdministratorLoginForm : Form
+    public partial class CashierLoginForm : Form
     {
-        public AdministratorLoginForm()
+        public CashierLoginForm()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

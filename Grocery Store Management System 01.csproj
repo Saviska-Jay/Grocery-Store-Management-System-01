@@ -104,5 +104,17 @@
   <ItemGroup>
     <None Include="Resources\Perfect-White-Gradient-4K-Wallpaper-7314.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG for Wireframe Grocery Store Management System 011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-icon-cart+purchase+shop+shopping+shopping+cart+shopping+trolleys-1320166001597041088_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG for Wireframe Grocery Store Management System 012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG02 for Wireframe Grocery Store Management System 01.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

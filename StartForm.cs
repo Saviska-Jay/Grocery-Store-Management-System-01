@@ -29,7 +29,9 @@ namespace Grocery_Store_Management_System_01
 
         private void CashierLoginButton_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            CashierLoginForm OBJ = new CashierLoginForm();
+            OBJ.ShowDialog();
         }
     }
 }
