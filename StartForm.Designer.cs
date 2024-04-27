@@ -78,6 +78,7 @@ namespace Grocery_Store_Management_System_01
             this.AdministratorLoginButton.TabIndex = 2;
             this.AdministratorLoginButton.Text = "Administrator Login";
             this.AdministratorLoginButton.UseVisualStyleBackColor = false;
+            this.AdministratorLoginButton.Click += new System.EventHandler(this.AdministratorLoginButton_Click);
             // 
             // CashierLoginButton
             // 
@@ -121,6 +122,7 @@ namespace Grocery_Store_Management_System_01
             this.ExitButton.TabIndex = 2;
             this.ExitButton.Text = "Exit";
             this.ExitButton.UseVisualStyleBackColor = false;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // label3
             // 

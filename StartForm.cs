@@ -33,5 +33,17 @@ namespace Grocery_Store_Management_System_01
             CashierLoginForm OBJ = new CashierLoginForm();
             OBJ.ShowDialog();
         }
+
+        private void AdministratorLoginButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AdministratorLoginForm OBJ = new AdministratorLoginForm();
+            OBJ.ShowDialog();
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
