@@ -70,6 +70,12 @@
     <Compile Include="CashierMainMenuForm.Designer.cs">
       <DependentUpon>CashierMainMenuForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="POSSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POSSystem.Designer.cs">
+      <DependentUpon>POSSystem.cs</DependentUpon>
+    </Compile>
     <Compile Include="StartForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CashierMainMenuForm.resx">
       <DependentUpon>CashierMainMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POSSystem.resx">
+      <DependentUpon>POSSystem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StartForm.resx">
       <DependentUpon>StartForm.cs</DependentUpon>
@@ -151,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\BG03 for Wireframe Grocery Store Management System 012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vivid-blurred-colorful-wallpaper-background.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

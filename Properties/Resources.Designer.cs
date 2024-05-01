@@ -174,6 +174,16 @@ namespace Grocery_Store_Management_System_01.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap vivid_blurred_colorful_wallpaper_background {
+            get {
+                object obj = ResourceManager.GetObject("vivid-blurred-colorful-wallpaper-background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap wp3469876_white_background_hd_wallpapers {
             get {
                 object obj = ResourceManager.GetObject("wp3469876-white-background-hd-wallpapers", resourceCulture);
