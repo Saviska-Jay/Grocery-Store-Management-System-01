@@ -113,6 +113,36 @@ namespace Grocery_Store_Management_System_01.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BG03_for_Wireframe_Grocery_Store_Management_System_01 {
+            get {
+                object obj = ResourceManager.GetObject("BG03 for Wireframe Grocery Store Management System 01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BG03_for_Wireframe_Grocery_Store_Management_System_011 {
+            get {
+                object obj = ResourceManager.GetObject("BG03 for Wireframe Grocery Store Management System 011", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BG03_for_Wireframe_Grocery_Store_Management_System_012 {
+            get {
+                object obj = ResourceManager.GetObject("BG03 for Wireframe Grocery Store Management System 012", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download_icon_cart_purchase_shop_shopping_shopping_cart_shopping_trolleys_1320166001597041088_256 {
             get {
                 object obj = ResourceManager.GetObject("download-icon-cart+purchase+shop+shopping+shopping+cart+shopping+trolleys-1320166" +

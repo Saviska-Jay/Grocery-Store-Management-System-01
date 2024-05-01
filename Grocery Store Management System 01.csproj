@@ -64,6 +64,12 @@
     <Compile Include="CashierLoginForm.Designer.cs">
       <DependentUpon>CashierLoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CashierMainMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierMainMenuForm.Designer.cs">
+      <DependentUpon>CashierMainMenuForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="StartForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,8 +81,14 @@
     <EmbeddedResource Include="AdministratorLoginForm.resx">
       <DependentUpon>AdministratorLoginForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AdministratorMainMenuForm.resx">
+      <DependentUpon>AdministratorMainMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CashierLoginForm.resx">
       <DependentUpon>CashierLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierMainMenuForm.resx">
+      <DependentUpon>CashierMainMenuForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StartForm.resx">
       <DependentUpon>StartForm.cs</DependentUpon>
@@ -130,6 +142,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\BG02 for Wireframe Grocery Store Management System 01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG03 for Wireframe Grocery Store Management System 01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG03 for Wireframe Grocery Store Management System 011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG03 for Wireframe Grocery Store Management System 012.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
