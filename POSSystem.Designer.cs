@@ -56,6 +56,8 @@ namespace Grocery_Store_Management_System_01
             this.SaveButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.MenuButton = new System.Windows.Forms.Button();
+            this.ExitButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -385,6 +387,36 @@ namespace Grocery_Store_Management_System_01
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Payment Info";
             // 
+            // MenuButton
+            // 
+            this.MenuButton.BackColor = System.Drawing.Color.GhostWhite;
+            this.MenuButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.MenuButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.MenuButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MenuButton.ForeColor = System.Drawing.Color.Green;
+            this.MenuButton.Location = new System.Drawing.Point(697, 401);
+            this.MenuButton.Name = "MenuButton";
+            this.MenuButton.Size = new System.Drawing.Size(77, 23);
+            this.MenuButton.TabIndex = 12;
+            this.MenuButton.Text = "Menu";
+            this.MenuButton.UseVisualStyleBackColor = false;
+            this.MenuButton.Click += new System.EventHandler(this.ProductIDSearchButton_Click);
+            // 
+            // ExitButton
+            // 
+            this.ExitButton.BackColor = System.Drawing.Color.GhostWhite;
+            this.ExitButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ExitButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ExitButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExitButton.ForeColor = System.Drawing.Color.Maroon;
+            this.ExitButton.Location = new System.Drawing.Point(795, 401);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(77, 23);
+            this.ExitButton.TabIndex = 12;
+            this.ExitButton.Text = "Exit";
+            this.ExitButton.UseVisualStyleBackColor = false;
+            this.ExitButton.Click += new System.EventHandler(this.ProductIDSearchButton_Click);
+            // 
             // POSSystem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -393,6 +425,8 @@ namespace Grocery_Store_Management_System_01
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(884, 436);
             this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.ExitButton);
+            this.Controls.Add(this.MenuButton);
             this.Controls.Add(this.DeleteButton);
             this.Controls.Add(this.QuantityAddButton);
             this.Controls.Add(this.ProductIDSearchButton);
@@ -451,5 +485,7 @@ namespace Grocery_Store_Management_System_01
         private System.Windows.Forms.Button SaveButton;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button MenuButton;
+        private System.Windows.Forms.Button ExitButton;
     }
 }
