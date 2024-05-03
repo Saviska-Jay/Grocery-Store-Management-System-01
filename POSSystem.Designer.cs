@@ -386,7 +386,7 @@ namespace Grocery_Store_Management_System_01
             this.groupBox2.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.groupBox2.Location = new System.Drawing.Point(532, 20);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(340, 333);
+            this.groupBox2.Size = new System.Drawing.Size(340, 285);
             this.groupBox2.TabIndex = 16;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Payment Info";

@@ -35,8 +35,8 @@ namespace Grocery_Store_Management_System_01
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.POSSystemButton = new System.Windows.Forms.Button();
-            this.IMSystemButton = new System.Windows.Forms.Button();
             this.EMSystemButton = new System.Windows.Forms.Button();
+            this.ProductManagementSystemButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -102,20 +102,6 @@ namespace Grocery_Store_Management_System_01
             this.POSSystemButton.Text = "Point of Sale (POS) System";
             this.POSSystemButton.UseVisualStyleBackColor = false;
             // 
-            // IMSystemButton
-            // 
-            this.IMSystemButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.IMSystemButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.IMSystemButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.IMSystemButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IMSystemButton.ForeColor = System.Drawing.Color.Black;
-            this.IMSystemButton.Location = new System.Drawing.Point(469, 209);
-            this.IMSystemButton.Name = "IMSystemButton";
-            this.IMSystemButton.Size = new System.Drawing.Size(301, 43);
-            this.IMSystemButton.TabIndex = 11;
-            this.IMSystemButton.Text = "Inventory Management System";
-            this.IMSystemButton.UseVisualStyleBackColor = false;
-            // 
             // EMSystemButton
             // 
             this.EMSystemButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -130,6 +116,20 @@ namespace Grocery_Store_Management_System_01
             this.EMSystemButton.Text = "Employee Management System";
             this.EMSystemButton.UseVisualStyleBackColor = false;
             // 
+            // ProductManagementSystemButton
+            // 
+            this.ProductManagementSystemButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.ProductManagementSystemButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ProductManagementSystemButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ProductManagementSystemButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProductManagementSystemButton.ForeColor = System.Drawing.Color.Black;
+            this.ProductManagementSystemButton.Location = new System.Drawing.Point(469, 211);
+            this.ProductManagementSystemButton.Name = "ProductManagementSystemButton";
+            this.ProductManagementSystemButton.Size = new System.Drawing.Size(301, 43);
+            this.ProductManagementSystemButton.TabIndex = 11;
+            this.ProductManagementSystemButton.Text = "Product Management System";
+            this.ProductManagementSystemButton.UseVisualStyleBackColor = false;
+            // 
             // AdministratorMainMenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -138,7 +138,7 @@ namespace Grocery_Store_Management_System_01
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(809, 461);
             this.Controls.Add(this.EMSystemButton);
-            this.Controls.Add(this.IMSystemButton);
+            this.Controls.Add(this.ProductManagementSystemButton);
             this.Controls.Add(this.POSSystemButton);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
@@ -166,7 +166,7 @@ namespace Grocery_Store_Management_System_01
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button POSSystemButton;
-        private System.Windows.Forms.Button IMSystemButton;
         private System.Windows.Forms.Button EMSystemButton;
+        private System.Windows.Forms.Button ProductManagementSystemButton;
     }
 }
