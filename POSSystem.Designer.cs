@@ -56,10 +56,10 @@ namespace Grocery_Store_Management_System_01
             this.SaveButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.MenuButton = new System.Windows.Forms.Button();
             this.ExitButton = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -67,9 +67,10 @@ namespace Grocery_Store_Management_System_01
             // ProductIDText
             // 
             this.ProductIDText.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProductIDText.Location = new System.Drawing.Point(158, 48);
+            this.ProductIDText.Location = new System.Drawing.Point(211, 59);
+            this.ProductIDText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ProductIDText.Name = "ProductIDText";
-            this.ProductIDText.Size = new System.Drawing.Size(122, 25);
+            this.ProductIDText.Size = new System.Drawing.Size(161, 29);
             this.ProductIDText.TabIndex = 10;
             // 
             // label4
@@ -77,9 +78,10 @@ namespace Grocery_Store_Management_System_01
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(27, 51);
+            this.label4.Location = new System.Drawing.Point(36, 63);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 18);
+            this.label4.Size = new System.Drawing.Size(120, 24);
             this.label4.TabIndex = 9;
             this.label4.Text = "Product ID :";
             // 
@@ -90,9 +92,10 @@ namespace Grocery_Store_Management_System_01
             this.ProductIDSearchButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.ProductIDSearchButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProductIDSearchButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.ProductIDSearchButton.Location = new System.Drawing.Point(286, 48);
+            this.ProductIDSearchButton.Location = new System.Drawing.Point(381, 59);
+            this.ProductIDSearchButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ProductIDSearchButton.Name = "ProductIDSearchButton";
-            this.ProductIDSearchButton.Size = new System.Drawing.Size(92, 27);
+            this.ProductIDSearchButton.Size = new System.Drawing.Size(123, 33);
             this.ProductIDSearchButton.TabIndex = 12;
             this.ProductIDSearchButton.Text = "Search";
             this.ProductIDSearchButton.UseVisualStyleBackColor = false;
@@ -103,19 +106,21 @@ namespace Grocery_Store_Management_System_01
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(27, 84);
+            this.label1.Location = new System.Drawing.Point(36, 103);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 18);
+            this.label1.Size = new System.Drawing.Size(153, 24);
             this.label1.TabIndex = 9;
             this.label1.Text = "Product Name :";
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(158, 81);
+            this.textBox1.Location = new System.Drawing.Point(211, 100);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(122, 25);
+            this.textBox1.Size = new System.Drawing.Size(161, 29);
             this.textBox1.TabIndex = 10;
             // 
             // label2
@@ -123,9 +128,10 @@ namespace Grocery_Store_Management_System_01
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(27, 117);
+            this.label2.Location = new System.Drawing.Point(36, 144);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 18);
+            this.label2.Size = new System.Drawing.Size(70, 24);
             this.label2.TabIndex = 9;
             this.label2.Text = "Price :";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -133,10 +139,11 @@ namespace Grocery_Store_Management_System_01
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(158, 114);
+            this.textBox2.Location = new System.Drawing.Point(211, 140);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(122, 25);
+            this.textBox2.Size = new System.Drawing.Size(161, 29);
             this.textBox2.TabIndex = 10;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -145,9 +152,10 @@ namespace Grocery_Store_Management_System_01
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(27, 150);
+            this.label3.Location = new System.Drawing.Point(36, 185);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 18);
+            this.label3.Size = new System.Drawing.Size(101, 24);
             this.label3.TabIndex = 9;
             this.label3.Text = "Quantity :";
             this.label3.Click += new System.EventHandler(this.label2_Click);
@@ -155,9 +163,10 @@ namespace Grocery_Store_Management_System_01
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(158, 147);
+            this.textBox3.Location = new System.Drawing.Point(211, 181);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(122, 25);
+            this.textBox3.Size = new System.Drawing.Size(161, 29);
             this.textBox3.TabIndex = 10;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -168,9 +177,10 @@ namespace Grocery_Store_Management_System_01
             this.QuantityAddButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.QuantityAddButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.QuantityAddButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.QuantityAddButton.Location = new System.Drawing.Point(286, 147);
+            this.QuantityAddButton.Location = new System.Drawing.Point(381, 181);
+            this.QuantityAddButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.QuantityAddButton.Name = "QuantityAddButton";
-            this.QuantityAddButton.Size = new System.Drawing.Size(92, 27);
+            this.QuantityAddButton.Size = new System.Drawing.Size(123, 33);
             this.QuantityAddButton.TabIndex = 12;
             this.QuantityAddButton.Text = "Add";
             this.QuantityAddButton.UseVisualStyleBackColor = false;
@@ -180,9 +190,11 @@ namespace Grocery_Store_Management_System_01
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 210);
+            this.dataGridView1.Location = new System.Drawing.Point(16, 251);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(477, 214);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(636, 263);
             this.dataGridView1.TabIndex = 13;
             // 
             // dateTimePicker1
@@ -195,10 +207,11 @@ namespace Grocery_Store_Management_System_01
             this.dateTimePicker1.CalendarTrailingForeColor = System.Drawing.Color.Green;
             this.dateTimePicker1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(22, 28);
+            this.dateTimePicker1.Location = new System.Drawing.Point(29, 34);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.dateTimePicker1.Size = new System.Drawing.Size(208, 25);
+            this.dateTimePicker1.Size = new System.Drawing.Size(276, 29);
             this.dateTimePicker1.TabIndex = 14;
             this.dateTimePicker1.Value = new System.DateTime(2024, 5, 1, 22, 21, 42, 0);
             // 
@@ -208,9 +221,10 @@ namespace Grocery_Store_Management_System_01
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label5.Location = new System.Drawing.Point(18, 95);
+            this.label5.Location = new System.Drawing.Point(24, 117);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 23);
+            this.label5.Size = new System.Drawing.Size(81, 28);
             this.label5.TabIndex = 9;
             this.label5.Text = "Total :";
             // 
@@ -218,10 +232,11 @@ namespace Grocery_Store_Management_System_01
             // 
             this.TotalText.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TotalText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.TotalText.Location = new System.Drawing.Point(108, 96);
+            this.TotalText.Location = new System.Drawing.Point(144, 118);
+            this.TotalText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TotalText.Name = "TotalText";
             this.TotalText.ReadOnly = true;
-            this.TotalText.Size = new System.Drawing.Size(122, 25);
+            this.TotalText.Size = new System.Drawing.Size(161, 29);
             this.TotalText.TabIndex = 10;
             // 
             // label6
@@ -230,9 +245,10 @@ namespace Grocery_Store_Management_System_01
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(18, 68);
+            this.label6.Location = new System.Drawing.Point(24, 84);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(80, 18);
+            this.label6.Size = new System.Drawing.Size(103, 24);
             this.label6.TabIndex = 9;
             this.label6.Text = "Discount :";
             // 
@@ -240,10 +256,11 @@ namespace Grocery_Store_Management_System_01
             // 
             this.DiscountText.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DiscountText.ForeColor = System.Drawing.Color.Black;
-            this.DiscountText.Location = new System.Drawing.Point(108, 65);
+            this.DiscountText.Location = new System.Drawing.Point(144, 80);
+            this.DiscountText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DiscountText.Name = "DiscountText";
             this.DiscountText.ReadOnly = true;
-            this.DiscountText.Size = new System.Drawing.Size(122, 25);
+            this.DiscountText.Size = new System.Drawing.Size(161, 29);
             this.DiscountText.TabIndex = 10;
             // 
             // label7
@@ -252,9 +269,10 @@ namespace Grocery_Store_Management_System_01
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(18, 161);
+            this.label7.Location = new System.Drawing.Point(24, 198);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(79, 18);
+            this.label7.Size = new System.Drawing.Size(102, 24);
             this.label7.TabIndex = 9;
             this.label7.Text = "Payment :";
             this.label7.Click += new System.EventHandler(this.label2_Click);
@@ -263,9 +281,10 @@ namespace Grocery_Store_Management_System_01
             // 
             this.PaymentText.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PaymentText.ForeColor = System.Drawing.Color.Black;
-            this.PaymentText.Location = new System.Drawing.Point(108, 158);
+            this.PaymentText.Location = new System.Drawing.Point(144, 194);
+            this.PaymentText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PaymentText.Name = "PaymentText";
-            this.PaymentText.Size = new System.Drawing.Size(122, 25);
+            this.PaymentText.Size = new System.Drawing.Size(161, 29);
             this.PaymentText.TabIndex = 10;
             this.PaymentText.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -275,9 +294,10 @@ namespace Grocery_Store_Management_System_01
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(18, 192);
+            this.label8.Location = new System.Drawing.Point(24, 236);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(71, 18);
+            this.label8.Size = new System.Drawing.Size(90, 24);
             this.label8.TabIndex = 9;
             this.label8.Text = "Change :";
             this.label8.Click += new System.EventHandler(this.label2_Click);
@@ -286,10 +306,11 @@ namespace Grocery_Store_Management_System_01
             // 
             this.ChangeText.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ChangeText.ForeColor = System.Drawing.Color.Black;
-            this.ChangeText.Location = new System.Drawing.Point(108, 189);
+            this.ChangeText.Location = new System.Drawing.Point(144, 233);
+            this.ChangeText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ChangeText.Name = "ChangeText";
             this.ChangeText.ReadOnly = true;
-            this.ChangeText.Size = new System.Drawing.Size(122, 25);
+            this.ChangeText.Size = new System.Drawing.Size(161, 29);
             this.ChangeText.TabIndex = 10;
             this.ChangeText.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -300,9 +321,10 @@ namespace Grocery_Store_Management_System_01
             this.DeleteButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.DeleteButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteButton.ForeColor = System.Drawing.Color.Maroon;
-            this.DeleteButton.Location = new System.Drawing.Point(384, 147);
+            this.DeleteButton.Location = new System.Drawing.Point(512, 181);
+            this.DeleteButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DeleteButton.Name = "DeleteButton";
-            this.DeleteButton.Size = new System.Drawing.Size(92, 27);
+            this.DeleteButton.Size = new System.Drawing.Size(123, 33);
             this.DeleteButton.TabIndex = 12;
             this.DeleteButton.Text = "Delete";
             this.DeleteButton.UseVisualStyleBackColor = false;
@@ -315,9 +337,10 @@ namespace Grocery_Store_Management_System_01
             this.PayButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.PayButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PayButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.PayButton.Location = new System.Drawing.Point(236, 158);
+            this.PayButton.Location = new System.Drawing.Point(315, 194);
+            this.PayButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PayButton.Name = "PayButton";
-            this.PayButton.Size = new System.Drawing.Size(92, 27);
+            this.PayButton.Size = new System.Drawing.Size(123, 33);
             this.PayButton.TabIndex = 12;
             this.PayButton.Text = "Pay";
             this.PayButton.UseVisualStyleBackColor = false;
@@ -330,9 +353,10 @@ namespace Grocery_Store_Management_System_01
             this.PrintButon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.PrintButon.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PrintButon.ForeColor = System.Drawing.Color.Teal;
-            this.PrintButon.Location = new System.Drawing.Point(138, 240);
+            this.PrintButon.Location = new System.Drawing.Point(184, 295);
+            this.PrintButon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PrintButon.Name = "PrintButon";
-            this.PrintButon.Size = new System.Drawing.Size(92, 27);
+            this.PrintButon.Size = new System.Drawing.Size(123, 33);
             this.PrintButon.TabIndex = 12;
             this.PrintButon.Text = "Print";
             this.PrintButon.UseVisualStyleBackColor = false;
@@ -345,9 +369,10 @@ namespace Grocery_Store_Management_System_01
             this.SaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.SaveButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SaveButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.SaveButton.Location = new System.Drawing.Point(22, 240);
+            this.SaveButton.Location = new System.Drawing.Point(29, 295);
+            this.SaveButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SaveButton.Name = "SaveButton";
-            this.SaveButton.Size = new System.Drawing.Size(110, 27);
+            this.SaveButton.Size = new System.Drawing.Size(147, 33);
             this.SaveButton.TabIndex = 12;
             this.SaveButton.Text = "Save";
             this.SaveButton.UseVisualStyleBackColor = false;
@@ -358,9 +383,11 @@ namespace Grocery_Store_Management_System_01
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.groupBox1.Location = new System.Drawing.Point(12, 20);
+            this.groupBox1.Location = new System.Drawing.Point(16, 25);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(477, 173);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(636, 213);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Product Info";
@@ -384,12 +411,39 @@ namespace Grocery_Store_Management_System_01
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.groupBox2.Location = new System.Drawing.Point(532, 20);
+            this.groupBox2.Location = new System.Drawing.Point(709, 25);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(340, 285);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(453, 351);
             this.groupBox2.TabIndex = 16;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Payment Info";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Arial", 11.25F);
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(144, 156);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(160, 30);
+            this.comboBox1.TabIndex = 17;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold);
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(25, 140);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(90, 48);
+            this.label9.TabIndex = 9;
+            this.label9.Text = "\r\nMethod :";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label9.Click += new System.EventHandler(this.label2_Click);
             // 
             // MenuButton
             // 
@@ -398,9 +452,10 @@ namespace Grocery_Store_Management_System_01
             this.MenuButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.MenuButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MenuButton.ForeColor = System.Drawing.Color.Green;
-            this.MenuButton.Location = new System.Drawing.Point(697, 401);
+            this.MenuButton.Location = new System.Drawing.Point(928, 486);
+            this.MenuButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MenuButton.Name = "MenuButton";
-            this.MenuButton.Size = new System.Drawing.Size(77, 23);
+            this.MenuButton.Size = new System.Drawing.Size(103, 28);
             this.MenuButton.TabIndex = 12;
             this.MenuButton.Text = "Menu";
             this.MenuButton.UseVisualStyleBackColor = false;
@@ -413,44 +468,22 @@ namespace Grocery_Store_Management_System_01
             this.ExitButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.ExitButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExitButton.ForeColor = System.Drawing.Color.Maroon;
-            this.ExitButton.Location = new System.Drawing.Point(795, 401);
+            this.ExitButton.Location = new System.Drawing.Point(1059, 486);
+            this.ExitButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(77, 23);
+            this.ExitButton.Size = new System.Drawing.Size(103, 28);
             this.ExitButton.TabIndex = 12;
             this.ExitButton.Text = "Exit";
             this.ExitButton.UseVisualStyleBackColor = false;
             this.ExitButton.Click += new System.EventHandler(this.ProductIDSearchButton_Click);
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(19, 114);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(70, 36);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "\r\nMethod :";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label9.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Arial", 11.25F);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(108, 127);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 25);
-            this.comboBox1.TabIndex = 17;
-            // 
             // POSSystem
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Grocery_Store_Management_System_01.Properties.Resources.vivid_blurred_colorful_wallpaper_background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(884, 436);
+            this.ClientSize = new System.Drawing.Size(1176, 527);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.MenuButton);
@@ -469,9 +502,10 @@ namespace Grocery_Store_Management_System_01
             this.Controls.Add(this.groupBox2);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(900, 475);
-            this.MinimumSize = new System.Drawing.Size(900, 475);
+            this.MaximumSize = new System.Drawing.Size(1194, 574);
+            this.MinimumSize = new System.Drawing.Size(1194, 574);
             this.Name = "POSSystem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Point Of Sale System";

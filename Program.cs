@@ -16,7 +16,7 @@ namespace Grocery_Store_Management_System_01
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ProductManagementSystem());
+            Application.Run(new StartForm());
         }
     }
 }

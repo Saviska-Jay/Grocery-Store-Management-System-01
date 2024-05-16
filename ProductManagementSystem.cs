@@ -21,5 +21,20 @@ namespace Grocery_Store_Management_System_01
         {
             
         }
+
+        private void MenuButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
