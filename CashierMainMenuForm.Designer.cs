@@ -40,18 +40,19 @@ namespace Grocery_Store_Management_System_01
             // 
             // POSSystemButton
             // 
-            this.POSSystemButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.POSSystemButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.POSSystemButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.POSSystemButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.POSSystemButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.POSSystemButton.ForeColor = System.Drawing.Color.Black;
             this.POSSystemButton.Location = new System.Drawing.Point(632, 257);
-            this.POSSystemButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.POSSystemButton.Margin = new System.Windows.Forms.Padding(4);
             this.POSSystemButton.Name = "POSSystemButton";
             this.POSSystemButton.Size = new System.Drawing.Size(401, 53);
             this.POSSystemButton.TabIndex = 16;
             this.POSSystemButton.Text = "Point of Sale (POS) System";
             this.POSSystemButton.UseVisualStyleBackColor = false;
+            this.POSSystemButton.Click += new System.EventHandler(this.POSSystemButton_Click);
             // 
             // label4
             // 
@@ -119,11 +120,12 @@ namespace Grocery_Store_Management_System_01
             this.Controls.Add(this.POSSystemButton);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1094, 605);
             this.MinimumSize = new System.Drawing.Size(1094, 605);
             this.Name = "CashierMainMenuForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cashier Main Menu";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

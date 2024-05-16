@@ -94,7 +94,7 @@ namespace Grocery_Store_Management_System_01
             // 
             // POSSystemButton
             // 
-            this.POSSystemButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.POSSystemButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.POSSystemButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.POSSystemButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.POSSystemButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -109,7 +109,7 @@ namespace Grocery_Store_Management_System_01
             // 
             // EMSystemButton
             // 
-            this.EMSystemButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.EMSystemButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.EMSystemButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.EMSystemButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.EMSystemButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -124,7 +124,7 @@ namespace Grocery_Store_Management_System_01
             // 
             // ProductManagementSystemButton
             // 
-            this.ProductManagementSystemButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.ProductManagementSystemButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ProductManagementSystemButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ProductManagementSystemButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.ProductManagementSystemButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

@@ -16,5 +16,12 @@ namespace Grocery_Store_Management_System_01
         {
             InitializeComponent();
         }
+
+        private void POSSystemButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            POSSystem POSSystemObj = new POSSystem();
+            POSSystemObj.ShowDialog();
+        }
     }
 }
